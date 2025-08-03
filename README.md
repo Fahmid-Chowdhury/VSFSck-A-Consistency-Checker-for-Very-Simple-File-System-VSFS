@@ -68,15 +68,15 @@ Run fixer (to patch inode bitmap index 13, for example):
 ./fixer vsfs.img
 
 ## 🖥️ Sample Output
-╔════════════════════════════════════════╗
-║            SUPERBLOCK INFO             ║
-╚════════════════════════════════════════╝
+╔════════════════════════════════════════╗  
+║            SUPERBLOCK INFO             ║  
+╚════════════════════════════════════════╝  
 
-Checking inode bitmap consistency...
-╔════════════╦════════════╦══════════════╗
-║ Inode      ║ Bitmap     ║ Status       ║
-╚════════════╩════════════╩══════════════╝
+Checking inode bitmap consistency...  
+╔════════════╦════════════╦══════════════╗  
+║ Inode      ║ Bitmap     ║ Status       ║  
+╚════════════╩════════════╩══════════════╝  
 
-Checking data bitmap consistency...
-DUPLICATE: Inode 5 references block 10 which is already referenced
-MISSING_BITMAP: Block 12 referenced 1 times but marked free
+Checking data bitmap consistency...  
+DUPLICATE: Inode 5 references block 10 which is already referenced  
+MISSING_BITMAP: Block 12 referenced 1 times but marked free  
