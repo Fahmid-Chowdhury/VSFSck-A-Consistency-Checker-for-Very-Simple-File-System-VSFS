@@ -74,7 +74,7 @@ Run fixer (to patch inode bitmap index 13, for example):
 
 Checking inode bitmap consistency...  
 ╔════════════╦════════════╦══════════════╗  
-║ Inode      ║ Bitmap     ║ Status       ║  
+║Inode       ║Bitmap      ║Status        ║  
 ╚════════════╩════════════╩══════════════╝  
 
 Checking data bitmap consistency...  
